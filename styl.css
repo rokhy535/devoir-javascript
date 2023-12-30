@@ -1,0 +1,41 @@
+#header
+{
+	text-align: center;
+	margin-top: 25px;
+	margin-right: 500px;
+}
+#bg
+{ 
+	box-shadow: 10px 10px 10px gold;
+	text-shadow: 2px 2px 4px gold;
+ }
+#tb1
+{
+	margin-left: 255px;
+}
+#tb2
+{
+	margin-top: 20px;
+}
+#nav
+{
+	margin-top: 100px;
+	margin-bottom: 100px;
+
+}
+#main
+{
+	width: 50%;
+	float: right;
+	margin-top: 1px;
+}
+#p1
+{
+  margin-left: 950px;	
+}
+#float
+{
+	padding-top: 200px;
+	float: right;
+
+}

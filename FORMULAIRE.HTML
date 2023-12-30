@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="styl2.css">
+</head>
+<body >
+<div id="header">
+    <h1>
+        <font color="black"> Veillez remplir le formulaire merci!!</font>
+    </h1>
+       <form  id="form">
+            <input id="n1" type="number"name="Premier nombre"placeholder="Premier nombre">
+            <input id="n2" type="number"name="Deuxieme nombre" placeholder="Deuxieme nombre">
+              <input type="button" value="calcule" id="btn">
+        </form>
+    <script>
+            let btn=document.getElementById('btn');
+            btn.addEventListener('click',function(){
+               let n1=document.getElementById("n1").value;
+               n1=parseInt(n1);
+               let n2=document.getElementById("n2").value;
+               n2=parseInt(n2);
+               let s=n1+n2;
+               let m=n1*n2;
+               let so=n1-n2;
+               if(n2==0){
+		        alert( "la division est impossible");
+	           }else{
+		       alert(" La division est:"+n1/n2);
+	}
+             alert("La somme est:  "+s);
+             alert("La multiplication est:  "+m);
+             alert("La soustraction est:  "+so);
+
+            })
+
+    </script>
+</body>
+</html>
